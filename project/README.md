@@ -1,5 +1,5 @@
 # Project Title
-**Stage:** Problem Framing & Scoping (Stage 01)
+**Stage:**
 The problem prosed in class is that our project manager has asked us whether the current ETF strategy is going to continue working going into the next year. Without knowing the exact method that is currently being used we need to process the possible short comings and unforseen risk by continuing with a status quo approach. 
 ## Problem Statement
 <1–2 paragraphs: what problem & why it matters>
