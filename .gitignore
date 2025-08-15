@@ -5,4 +5,8 @@ __pycache__/
 *.pyc
 # Ignore environment files
 .env
+<<<<<<< HEAD
 *.env
+=======
+*.env
+>>>>>>> ec0cdf84f5b720173985128eabdbcaa9869eaba8
