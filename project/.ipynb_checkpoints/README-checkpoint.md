@@ -17,7 +17,7 @@ The immediate answer to the question is almost always no. The market is ever cha
 - Many geopolitical risks cause market fluctuations, one in the current stage being tariffs to monitor this we could use the Vix to indicate overall market volatility to judge whether a more risk averse approach is suitable.
 ## Lifecycle Mapping
 Goal → Stage → Deliverable
-- <> → Problem Framing & Scoping (Stage 01) → <Deliverable X>
+- <Goal A> → Problem Framing & Scoping (Stage 01) → <Deliverable X>
 - ...
 ## Repo Plan
 /data/, /src/, /notebooks/, /docs/ ; cadence for updates
