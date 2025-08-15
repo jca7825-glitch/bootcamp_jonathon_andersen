@@ -1,12 +1,11 @@
 # Ignore local class materials
 class_materials/
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
+
 # Ignore environment files
 .env
-<<<<<<< HEAD
 *.env
-=======
-*.env
->>>>>>> ec0cdf84f5b720173985128eabdbcaa9869eaba8
+
