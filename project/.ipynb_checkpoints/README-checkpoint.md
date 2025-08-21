@@ -1,23 +1,38 @@
-# Project Title
+# ETF Dilemma
 **Stage:**
-The problem posed in class is that our project manager has asked whether the current ETF strategy will remain effective going into the next year. Without knowing the exact method currently in use, we need to assess potential shortcomings and unforeseen risks of maintaining a status quo approach. 
+The problem I'd like to analyze is whether or not ETFs are actually out performing the market consistently, and at that which one's do the worst and which ones actively perfrom the best.  
 ## Problem Statement
-The way an ETF is managed directly impacts its earnings performance. If an ETF underperforms relative to the market, it loses market value, which can lead to financial losses for the company. As a result, selecting the right management strategy can mean the difference between growth and decline. 
+In the current stage of the market we have seen many losers and many winners, so the ideal is to always pick the winners and never those that lose. Hence the want for ore experienced individuals like asset and portfolio managers to make better decisions than the non-market savvy consumer.
 
-Our focus will be to determine which market factors and data are essential for evaluating the strategy’s viability, and to identify the variables most likely to skew results in a negative direction.
+Taking a look at the market we can see countless options for ETFs, Mutual Funds and so-on. The list is cumbersome and unnecessary, but which one is the best? As well would it just be smarter to invest in the the S&P 500 rather than a more actively managed fund?
 ## Stakeholder & User
-The decider is the manager of the ETF, in our case, the project manager. Other stakeholders would be the risk analysts or anyone working within the company that has a motivation in the ETF success, i.e. CEOs, VPs,..etc The user is the buyer of the ETF or the customer on the secondary market.
+The decider is the consumer, as it is our money we need to be best informed of the likely outcomes and historical consistencies. Other stakeholders would be the risk analysts or anyone working within the company that has a motivation in the ETF success, i.e. CEOs, VPs,..etc The user is the buyer of the ETF or the customer on the secondary market.
 ## Useful Answer & Decision
 
-The immediate answer to the question is almost always no. The market is ever changing, and thus we cannot assume that what worked last year is going to work again. The best way to decide on what measurments to use would be to access the data that we have at hand. Historical data will give us a glipse as to where the market has been heading but factoring in futures values,bond prices, as well as options could also give an indication of confidence in the overall market. Taking those four as the primary drivers and using aggregate information would give us a confident outlook on what this year's ETF could be. 
+As we can see historically the investment into the market out performs both bond market and traditional savings. Using Market statistics both in recent years and long term will allow us to see what are the best investments for the short-term and what is best for the long-term. 
+
+We must also look at the outlier years to better understand what might to best for the most risk averse investors as well, this can be tracked by associating each week with the associated risk value. 
 ## Assumptions & Constraints
 - We are limited to what is available to the open net, so many of the above values will be insuffucuent to make a fully confident decision off of.
 - The constraint of about two weeks of class has  strong damper as well, we can only collect as much data as the time allows, thus being able to include everything will not be possible.
 ## Known Unknowns / Risks
-- Many geopolitical risks cause market fluctuations, one in the current stage being tariffs to monitor this we could use the Vix to indicate overall market volatility to judge whether a more risk averse approach is suitable.
+- Many geopolitical risks cause market fluctuations, one in the current stage being tariffs to monitor this we could use the Vix to indicate overall market volatility in the future, so we will need to make a strict basis of past data.
+- As the earlier statements what defines as good performance can differ per person, so the largest risk is how to handle risk-to-reward, in this case the opinion of best performance will be consistent to highest consistent return.
 ## Lifecycle Mapping
 Goal → Stage → Deliverable
-- <Goal A> → Problem Framing & Scoping (Stage 01) → <Deliverable X>
+- <analyze the short and long term averages of ETFs and the S&P 500> → Collect the data through yahoo finance or a secondary site → <Create a CSV housing all of the possible data points>
+- <Have a time based analysis of the YoY returns> → Use the obtained CSV → <Return a standardized database with the short-term and long-term YoY returns of the studied ETFs>
+-<Predict the next 5 year best ETF> → Using regression analysis we can have the historical data give us a depiction of what the future could look like → <Create the final CSV with the predicted 5 year returns of each ETF against the market>
 - ...
 ## Repo Plan
 /data/, /src/, /notebooks/, /docs/ ; cadence for updates
+
+## Data Storage 
+
+The data is stored in csv files being downloaded from alpha vantage, where they are stored in the form.
+
+Project/Data/Raw
+
+The finalized data will be stored as csv files in the processed file.
+
+Project/Data/Processed

@@ -26,3 +26,13 @@ Goal → Stage → Deliverable
 - ...
 ## Repo Plan
 /data/, /src/, /notebooks/, /docs/ ; cadence for updates
+
+## Data Storage 
+
+The data is stored in csv files being downloaded from alpha vantage, where they are stored in the form.
+
+Project/Data/Raw
+
+The finalized data will be stored as csv files in the processed file.
+
+Project/Data/Processed
