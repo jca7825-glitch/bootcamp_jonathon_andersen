@@ -54,9 +54,9 @@ def Alpha_Pull(s):
                   .rename_axis('date')
                   .reset_index())
         # The given was based on a premium account so I looked up the possible outcomes and 4. close was a free call
-        df_api = df_api[['date', '4. close']].rename(columns={'4. close': 'close'})
+        df_api = df_api[['date', '4. close']].rename(columns={'4. close': f'{SYMBOL}_close'})
         df_api['date'] = pd.to_datetime(df_api['date'])
-        df_api['close'] = pd.to_numeric(df_api['close'])
+        df_api[f'{SYMBOL}_close'] = pd.to_numeric(df_api[f'{SYMBOL}_close'])
 
         fname = safe_filename(prefix="api", meta={"source": "alpha" if use_alpha else "yfinance", "symbol": SYMBOL})
         out_path = DATA_RAW / fname
