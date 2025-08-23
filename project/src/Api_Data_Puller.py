@@ -30,7 +30,7 @@ def Alpha_Pull(s):
         params = {
             "function": "TIME_SERIES_DAILY",
             "symbol": SYMBOL,
-            "outputsize": "compact",
+            "outputsize": "full",
             "apikey": api_key,
             "datatype": "json"
         }
